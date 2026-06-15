@@ -1,0 +1,17 @@
+.navbar {
+  position: sticky; 
+  top: 0;
+  background-color: #333;
+  color: white;
+  padding: 15px;
+  z-index: 1000;
+}
+
+/* without sticky position , page scroll completely, the navbar does not stay in same position, so to tackle this problem we use sticky position.
+! Method 1 is used whoich is recommended
+
+! Interview Answer
+
+! Sticky Navbar is a navigation bar that remains fixed or sticks to the top of the screen while the user scrolls. In React, it can be implemented using CSS (position: sticky) or by listening to the scroll event and updating component state based on window.scrollY.
+! CSS sticky is preferred because it's simpler and more performant than handling scroll events in JavaScript.
+*/

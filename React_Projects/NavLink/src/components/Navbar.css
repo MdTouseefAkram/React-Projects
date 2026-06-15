@@ -1,0 +1,6 @@
+nav a.active {
+    text-decoration: none;
+    font-weight: bold;
+    /* color: red; */
+    /* font-weight: red; */
+}
