@@ -8,6 +8,7 @@ import DisplayAge from './components/DisplayAge'
 const App = () => {
   return (
     <>
+    {/* DisplayUser and DisplayAge are wrapped inside the Context Provider and can access the shared context data. */}
     <UserProvider>
       <DisplayUser/>
       <DisplayAge/>
@@ -17,3 +18,5 @@ const App = () => {
 }
 
 export default App
+
+//! Context API is a React feature that allows global state sharing across components without prop drilling using createContext, Provider, and useContext.

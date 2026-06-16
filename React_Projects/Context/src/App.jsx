@@ -15,6 +15,7 @@ const App = () => {
 
   return (
     <>
+    {/* DisplayUser and UpdateUser are wrapped inside the Context Provider and can access the shared context data. */}
       <UserProvider>
         <div>
           <h1>Welcome</h1>
@@ -28,3 +29,5 @@ const App = () => {
 }
 
 export default App
+ 
+//! Context API is a React feature that allows global state sharing across components without prop drilling using createContext, Provider, and useContext.
